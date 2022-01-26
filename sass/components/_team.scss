@@ -1,0 +1,74 @@
+.team {
+  background-color: var(--light-bg-color);
+}
+
+.team .card-set-item,
+.footer .card-set-item {
+  --card-items: 4;
+}
+
+.team-item {
+  background-color: var(--light-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: var(--team-card-shadow);
+}
+
+.team-img {
+  display: block;
+}
+
+.team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.team-text {
+  margin-bottom: 16px;
+}
+
+.team-text,
+.team-persone-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-persone-title {
+  font-weight: 500;
+  color: var(--main-title-color);
+  margin-bottom: 10px;
+}
+
+.social-list.card-set {
+  --card-set-gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color 250ms var(--time-function), color 250ms var(--time-function);
+}
+
+.social-link {
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+  }
+}
+
+.social-icon {
+  fill: var(--social-icon-color);
+  transition: fill 250ms var(--time-function);
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: currentColor;
+  }
+}

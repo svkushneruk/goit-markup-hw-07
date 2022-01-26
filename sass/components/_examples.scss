@@ -1,0 +1,36 @@
+.examples {
+  padding-top: 0;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.examples-item {
+  position: relative;
+}
+
+.examples-img {
+  display: block;
+}
+
+.examples-subtitle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  padding: 27px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--light-color);
+
+  background-color: var(--examples-subtitle-bg);
+}
