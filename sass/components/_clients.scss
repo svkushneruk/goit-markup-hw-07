@@ -2,7 +2,7 @@
   --card-items: 6;
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +12,6 @@
   color: var(--clients-border-color);
 
   transition: border 250ms var(--time-function), color 250ms var(--time-function);
-}
-
-.clients-link {
   &:hover,
   &:focus {
     border: 1px solid var(--accent-color);
@@ -22,7 +19,7 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
   transition: fill 250ms var(--time-function);
   .clients-link:hover &,

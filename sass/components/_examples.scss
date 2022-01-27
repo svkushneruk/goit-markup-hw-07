@@ -2,23 +2,15 @@
   padding-top: 0;
 }
 
-.section-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--main-title-color);
-}
-
-.examples-item {
+.examples-list__item {
   position: relative;
 }
 
-.examples-img {
+.examples-list__img {
   display: block;
 }
 
-.examples-subtitle {
+.examples-list__subtitle {
   position: absolute;
   left: 0;
   bottom: 0;
